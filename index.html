@@ -25,7 +25,7 @@
                 </div>
                 <div class="items-menu-mobile">
                     <i class="fa fa-bars" aria-hidden="true"></i>
-                    <div class="menu-mobile">
+                    <div class="menu-mobile show">
                         <li style="list-style-type:none;">
                             <a>Cursos</a>
                             <a>Plataformas</a>
@@ -220,5 +220,20 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        var menuBtn = document.querySelector('.items-menu-mobile i');
+        menuBtn.addEventListener('click',()=>{
+            let itemsMenu = document.querySelector('.menu-mobile');
+            if(itemsMenu.classList.contains('show')){
+                itemsMenu.classList.remove('show');
+                itemsMenu.classList.add('hide');
+            }else{
+                itemsMenu.classList.remove('hide');
+                itemsMenu.classList.add('show');
+            }
+            
+        });
+    </script>
 </body>
 </html>
