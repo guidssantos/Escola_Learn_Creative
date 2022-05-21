@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.main{
+    background-image: url(../img/bg_1.png);
+    background-size: cover;
+    min-height: 900px;
+    background-position: center;
+    padding: 20px 0 80px 0;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.logo{
+    padding-left: 5%;
+    width: 30%;
+    cursor: pointer;
+}
+
+.items_menu{
+    width: 70%;
+    padding-left: 15%;
+}
+
+.items_menu a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 50px;
+    cursor: pointer;
+}
+
+.items_menu a:hover{
+    border-bottom: 1px solid white;
+}
+
+.main_page{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.main_page img{
+    width: 40%;
+}
+
+.main_title{
+    width: 60%;
+}
+
+.main_title h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    width: 70%;
+    text-shadow: 0px 2px black;
+    margin-left: 10%;
+}
+
+.main_title p{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.box_numbers{
+    width: 168px;
+    height: 183px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #794BFF;
+    text-align: center;
+    padding-top: 35px;
+    color: #6533FF;
+    margin-top: 50px;
+    margin-right: 105px;
+}
+
+.box_numbers h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box_numbers p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container_title{
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.courses_title{
+    text-align: center;
+}
+
+.courses_title h2{
+    font-size: 36px;
+    color: #0B036B;
+    font-weight: 700;
+}
+
+.courses_title p{
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.courses_box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5%;
+    flex-wrap: wrap;
+}
+
+.courses_single {
+    padding-top: 67px;
+    padding-right: 60px;
+    margin-bottom: 50px;
+}
+.courses_single p{
+    width: 250px;
+    margin: auto;
+}
+
+.courses_single h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0B036B;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.benifits{
+    background:#794BFF fixed repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.benifits_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.benifits_box img{
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 30%;
+}
+
+.benifits_title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    width: 60%;
+}
+
+.benifits_title h1{
+    font-size: 48px;
+    text-shadow: 0px 2px black;
+    color: white;
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.benifits_single h2{
+    color: white;
+}
+
+.benifits_single p{
+    color: white;
+    width: 80%;
+    padding-bottom: 50px;
+}
+
+.instructor_box{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.instructor_title{
+    width: 40%;
+}
+
+
+.instructor_title h1{
+    padding-top: 30px;
+    font-size: 48px;
+    color: #0B036B;
+}
+
+.instructor_title p{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.instructor_box img{
+    width: 60%;
+}
+
+.instructor_title a{
+    color: #0B036B;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #794BFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.students_box{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.students_title{
+    width: 800px;
+}
+
+.students_title h1{
+    color: #0B036B;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.students_title p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+.student_single_box{
+    width: 600px;
+    height: 200px;
+    border: 1px solid #AD90FF;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-bottom: 20%;
+}
+
+.student_single{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.student_single img{
+    width: 148px;
+    margin: 10px 20px;
+}
+
+.student_single p{
+    display: inline;
+    width: 400px;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+.student_single h2{
+    margin-right: 20px;   
+}
+
+.footer_bg{
+    background-image: url(../img/bg_2.png);
+    background-size: cover;
+    min-height: 900px;
+    background-position: center;
+    padding: 20px 0 80px 0;
+}
+
+.contact_box{
+    max-width: 782px;
+    height: 466px;
+    border: 1px solid #794BFF;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.contact_title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact_title h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 30px;
+    color: #0B036B;
+}
+
+.contact_title p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 500px;
+    text-align: center;
+}
+
+.contact_form{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_box input[type=text],
+.contact_box input[type=email] {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.contact_box input[type=submit] {
+    width: 100%;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    background: #794BFF;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.footer_box{
+    padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo_footer p{
+    width: 275px;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.logo_footer_img img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.company_footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.company_footer h1{
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.company_footer a{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.support_footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.support_footer h1{
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.support_footer a{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.link_footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.link_footer h1{
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.link_footer a{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact_footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.contact_footer h1{
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.contact_footer a{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -60px;
+}
+
+.copyright p{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    width: 650px;
+    border-top: 1px solid white;
+}
+
+.items-menu-mobile{
+    display: none;
+    width: 50%;
+    text-align: right;
+}
+
+.items-menu-mobile i{
+    color: white;
+    position: relative;
+    top: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .main_page img {
+        display: none;
+    }
+
+    .main_title p{
+        width: 550px;
+        margin-left:30px;
+        text-align: center;
+    }
+
+    .main_title h1{
+        margin-left: 20px;
+    }
+
+    .main {
+        min-height: auto;
+        padding: 20px 0 50px 0;
+    }
+
+    .courses_box {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .courses_title {
+        padding-bottom: 40px;
+    }
+
+    .courses_single {
+        padding-top: 0px;
+    }
+
+    .benifits_box img{
+        display: none;
+    }
+
+    .benifits_title{
+        text-align: center;
+    }
+
+    .instructor_box img{
+        display: none;
+    }
+
+    .instructor_box{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .instructor_title{
+        text-align: center;
+    }
+
+    .instructor_title p{
+        width: 500px;
+        padding-left: 50px;
+    }
+
+    .student_single {
+        flex-wrap: nowrap;
+    }
+    
+    .contact_box {
+        width: 100%;
+        height: 450px;
+    }
+
+    .footer_box{
+        flex-wrap: wrap;
+    }
+
+    .company_footer{
+        margin-left: 80px;
+    }
+
+    .support_footer,
+    .link_footer,
+    .contact_footer,
+    .logo_footer{
+        margin-left: 40px;
+    }
+
+    .items-menu-mobile{
+        display: block;
+    }
+
+    .menu-mobile{
+        opacity: 0;
+        transition: 1s;
+        position: absolute;
+        left: 0px;
+        top: 85px;
+        width: 100%;
+        background-color: white;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin: 8px 0;
+        color: rgb(40,  40, 40);
+        text-decoration: none;
+        font-weight: 700;
+        border-bottom: 1px solid rgb(40,  40, 40);
+        padding: 8px 0;
+    }
+
+    .items_menu{
+        display: none;
+    }
+
+}
